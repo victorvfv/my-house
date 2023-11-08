@@ -109,45 +109,7 @@ public class Picture
      */
     public void amanecer()
     {
-       wall = new Square();
-        wall.moveHorizontal(-140);
-        wall.moveVertical(20);
-        wall.changeSize(120);
-        wall.makeVisible();
-        
-        window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(-120);
-        window.moveVertical(40);
-        window.changeSize(40);
-        window.makeVisible();
-
-        roof = new Triangle();  
-        roof.changeSize(60, 180);
-        roof.moveHorizontal(20);
-        roof.moveVertical(-60);
-        roof.makeVisible(); 
-        
-        moon = new Circle();
-        moon.changeColor("magenta");
-        moon.moveHorizontal(-150);
-        moon.moveVertical(-20);
-        moon.changeSize(40);
-        moon.makeVisible();
-        
-        floor = new Square();
-        floor.changeColor("green");
-        floor.moveVertical(140);
-        floor.moveHorizontal(-330);
-        floor.changeSize(800);
-        floor.makeVisible();
-        
-        sun = new Circle();
-        sun.changeColor("yellow");
-        sun.moveHorizontal(100);
-        sun.moveVertical(250);
-        sun.changeSize(80);
-        sun.makeVisible();
+       
         sun.slowMoveVertical(-250);
         
          moon.makeInvisible();
